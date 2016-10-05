@@ -16,10 +16,10 @@ function letterIndices(myString) {
   return myObject;
 }
 
-console.log(letterIndices("lighthouse in the house"));
+letterIndices("lighthouse in the house");
 
 
-// Output should be
+// Should return:
 // {
 //   l: [0],
 //   i: [1, 11],
